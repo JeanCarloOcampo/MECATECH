@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taller de Mecánica de Motos - Clientes</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="clientes.html">Ingreso de Clientes</a></li>
+                <li><a href="cursos.html">Cursos de Mecánica Avanzada</a></li>
+                <li><a href="inventario.html">Inventario de Repuestos</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <h1>Ingreso de Clientes</h1>
+        <form id="clienteForm">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" required>
+            
+            <label for="telefono">Teléfono:</label>
+            <input type="tel" id="telefono" required>
+            
+            <label for="moto">Moto (Marca/Modelo):</label>
+            <input type="text" id="moto" required>
+            
+            <button type="submit">Guardar Cliente</button>
+        </form>
+        <div id="clientesList"></div>
+    </main>
+    
+    <footer>
+        <p>&copy; 2023 Taller de Mecánica de Motos. Todos los derechos reservados.</p>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
